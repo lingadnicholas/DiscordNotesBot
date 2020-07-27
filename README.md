@@ -1,1 +1,3 @@
 # DiscordNotesBot
+
+This is a bot that I decided to create as my intro to Discord Bots, Python, and MySQL. Its functionality allows users to use a Discord bot to store text notes in that are organized by category. I did this because I often find myself using a private Discord server with multiple channels to store miscellaneous notes to myself. Although all notes are encrypted, it is not recommended to use this bot to store sensitive information such as emails, passwords, personal information, etc. 
