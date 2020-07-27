@@ -4,7 +4,7 @@ import os
 import mysql.connector as mysql
 from discord.ext import commands, tasks
 import globals
-import connect
+from config import *
 
 client = commands.Bot(command_prefix = 'n!')
 
@@ -32,4 +32,4 @@ async def on_command_error(ctx,error):
     if isinstance(error, commands.CommandNotFound):
         await ctx.send(f"{globals.ERROR}\n{ctx.message.author.mention}, use a valid command.")
 
-client.run('NzI4MzU0MzY1OTMyNDM3NTk0.XwnyzA.BMtPWqzuALN-qi7AHzp8aig_6Fs') 
+client.run(config.token) 
